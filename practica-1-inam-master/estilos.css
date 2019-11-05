@@ -1,154 +1,230 @@
-html {
-	font-family: Arial;
-}
-body {
-	margin: auto;
-	padding: 0;
-}
+/* Adrian */
 header {
-	top:0;
-	height: 15%;
-	width: 100%;	
-	background-image: url("imagenes/Fondo_header.jpg");
-	background-size: cover;
-	position: fixed;
-}
-nav {
-	top: 15%;
-	bottom: 12%;
-	height: 7%;
-	width: 100%;
-	background-color: #023859;
-	position: fixed;	
-}
-main {
-	position:absolute;
-	top: 22%;
-	width: 100%;
-	margin-bottom: 7%;
-	z-index: -1;
-}
-footer {	
-	position: fixed;
-	bottom: 0px;
-    width:100%;
-    height: 12%;
-    background-color:#047dc8;
-	border-top-color:1px solid rgba(255,255,255,.5);
-    text-align:center; 
+    width: 100%;
+    height: 120px;
 }
 
-#headleft {
-	float:left;
-	width: 20%;
-	height: 100%;	
+
+nav {
+    width: 100%;
+    height: 118px;
+
 }
-#headleft img {
-	width: 50%;
-	height: 100%;		
+
+.cab { 
+    background-image: url("imagenes/Fondo_header.jpg");
+    background-size: 100%, 50%;
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top:0;
+    right:0;
+    margin-left: 150px;
 }
-#headcenter {
-	float: left;
-	width: 60%;
-	height: 100%;
-	text-align: center;
+#en {
+    margin-right: 126px;
+    text-align: center;
+    line-height: 50%;
+    color:rgb(3, 6, 100);
 }
-#headright {
-	float: left;
-	width: 20%;
-	height: 100%;
+#diw {
+    width:162px;
+    height:140px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
 }
-#flagone {
-	float: left;
-	width: 100%;
+#esp {
+    float: right;
+    width:126px;
+    height: 61px;
 }
-#flagtwo {
-	float: left;
-	width: 100%;
+#icoIdiomas {
+    width: 25px;
+    height: 25px;
 }
-#imgesp {
-	display:block;
-	margin-left: auto;
-	padding: 0;
-	width: 35%;
-	height: 50%;
-}
-.icoIdiomas {
-	display: block;
-	float: right;
-	margin: auto;
-	padding: 5px;
-	width: 12%;
-	height: 12%;
+
+/* Isvaku */
+nav{
+    background:#023859;    
+    width: 100%;
+    top:140px;
+    height: 15%;
+    margin:20px auto;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 nav ul{
-    background:#023859;
-    font-family:Arial, Helvetica, sans-serif; 
-    margin: 0;
-    padding: 0;
-    position: static;
-	text-align: center;
+    text-align: center;
+    list-style:none;
 }
+
 nav ul li{
     display:inline-block;
-	position: relative;
+    position: relative;
 }
+
 nav ul li:hover{
-	background:#047dc8 ;
+    background:#047dc8 ;
 }
+
 nav ul li a{
+
     color:#fff;
     display:block;
     text-decoration: none;
-	padding:20px;
+    padding:20px;
 }
+
 nav ul li:hover .children{
-	display:block;
+    display:block;
 }
-nav ul li ul{
+
+nav ul li .children{
     display:none;
     background:#011826;
     position:absolute;
-	width:150%;
+    width:150%;
+    
+    text-align: center;
+
 }
+
 #largos{
     width:400%;
-} 
+}
+
+#cortos{
+    width:75%;
+}
+
 nav ul li .children li{
-	display:block;
+    display:block;
+    overflow:hidden;
+    border-bottom:1px solid rgba(255,255,255,.5)
+
 }
 
-
-
-section {
-	width: 95%;
-	margin:auto;
-	padding:0;
+nav ul li .children li a{
+    display:block;
 }
 
-
-#footl {
-	float: left;
-	left:0;
-	width: 20%;
-	height: 100%;
+ #ciclo{
+     padding:10px;
+     text-align:center;
+     
+     
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
-#footr {
-	float: left;
-	margin: auto;
-	padding: 0;
+#ciclo p{
+    text-align:left;
+    padding:1px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#ciclo ul{
+    
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+   
+    
+}
+#ciclo li{
+    font-style:bold;
+   font-weight:bold;
+   font-family:Arial, Helvetica, sans-serif;
+}
+#ciclo h2{
+    border-bottom:1px solid black;
+    
+}
+#ciclo h3{
+    border-bottom:1px dashed black;
+}
+/* Natan */
+footer
+{
+	border-top-style:inset;
+	border-top-color:1px solid rgba(255,255,255,.5);
+	margin-top:10px;
+	background-color:#047dc8;
+	padding:2px;
+    width:100%;
+    height: 20%;
+	text-align:center;
+	clear:both;
 }
 img#logotipo
 {
-	width:25%;
-	height:100%;
-	left: 0;
-
+	width:5%;
+	height:5%;
+	float:left;
+}
+.pfooter
+{
+	color:black;
+	font-size:20px;
+	margin-left:109px;
+}
+#uni
+{
+	float:left;
+	margin-bottom:2px;
+	margin-right:200px;
+	margin-left:700px;
+	width:500px;
+	height:300px;
+}
+#titulo{
+	text-align:center;
+	font-size:32px;
+}
+#cuerpo
+{
+	
+	clear:both;
+}
+#menu
+{
+	margin-top:20px;
+	float:left;
+	margin-bottom:30px;
+	margin-left:300px;
+	width:55%;
+	height:500px;
+}
+iframe
+{
+	float:left;
+	width:600px; 
+	height:460px; 
+	border:0;
+	margin-bottom:20px;
+	margin-right:10px;
+}
+#registrate
+{
+	width:380px;
+	height:450px;
+	float:left;
+}
+.datos
+{
+	width:300px;
+	height:180px;
+	float:left;
+	margin-left:20px;
+}
+hr
+{
+	width:30%;
+	height:4%;
 }
 .imgfooter
 {
 	width:2.5%;
 	height:2.5%;
 	text-align:center;
+	margin:5px;
 }
