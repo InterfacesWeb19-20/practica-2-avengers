@@ -116,6 +116,9 @@ margin:auto;
 	
 
 }	
+h2{
+	text-align: center;
+}
 h1{
 	text-align: center;
 }
@@ -194,4 +197,12 @@ section{
 	margin-left:36.5%;
 	margin-right:35%;
 }
-
+.galeriainf img{
+	float:left;
+	margin-bottom:20px;
+	margin-left:5px;
+	
+}
+.galeriainf{
+	margin-left:7%;
+}
