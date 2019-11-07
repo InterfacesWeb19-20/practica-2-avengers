@@ -21,22 +21,8 @@ nav {
 	background-color: #023859;
 	position: fixed;	
 }
-main {
-	position:absolute;
-	top: 22%;
-	width: 100%;
-	margin-bottom: 7%;
-	z-index: -1;
-}
-footer {	
-	position: fixed;
-	bottom: 0px;
-    width:100%;
-    height: 12%;
-    background-color:#047dc8;
-	border-top-color:1px solid rgba(255,255,255,.5);
-    text-align:center; 
-}
+
+
 
 #headleft {
 	float:left;
@@ -127,28 +113,88 @@ section {
 	padding:0;
 }
 
-
-#footl {
-	float: left;
-	left:0;
-	width: 20%;
-	height: 100%;
-}
-#footr {
-	float: left;
-	margin: auto;
-	padding: 0;
+footer
+{
+	border-top-style:inset;
+	border-top-color:1px solid rgba(255,255,255,.5);
+	margin-top:10px;
+	background-color:#047dc8;
+	padding:2px;
+    width:100%;
+    height: 20%;
+	text-align:center;
+	clear:both;
 }
 img#logotipo
 {
-	width:25%;
-	height:100%;
-	left: 0;
-
+	width:5%;
+	height:5%;
+	float:left;
+}
+.pfooter
+{
+	color:black;
+	font-size:20px;
+	margin-left:109px;
+}
+#uni
+{
+	float:left;
+	margin-bottom:2px;
+	margin-right:200px;
+	margin-left:700px;
+	width:500px;
+	height:300px;
+}
+#titulo{
+	text-align:center;
+	font-size:32px;
+}
+#cuerpo
+{
+	
+	clear:both;
+}
+#menu
+{
+	margin-top:20px;
+	float:left;
+	margin-bottom:30px;
+	margin-left:300px;
+	width:55%;
+	height:500px;
+}
+iframe
+{
+	float:left;
+	width:600px; 
+	height:460px; 
+	border:0;
+	margin-bottom:20px;
+	margin-right:10px;
+}
+#registrate
+{
+	width:380px;
+	height:450px;
+	float:left;
+}
+.datos
+{
+	width:300px;
+	height:180px;
+	float:left;
+	margin-left:20px;
+}
+hr
+{
+	width:30%;
+	height:4%;
 }
 .imgfooter
 {
 	width:2.5%;
 	height:2.5%;
 	text-align:center;
+	margin:5px;
 }
