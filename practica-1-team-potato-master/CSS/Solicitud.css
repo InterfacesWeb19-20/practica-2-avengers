@@ -20,14 +20,15 @@ legend{
 	margin:50px auto;
 	box-shadow:0px 0px 15px rgba(0, 0, 0, 0.22);
 }
-#formulario1{
+#formulario1,#formulario2{
 	font-family:'Open Sans Condensed', arial, sans;
 	width:900px;
 	padding:30px;
 	margin:50px auto;
 	box-shadow:0px 0px 15px rgba(0, 0, 0, 0.22);
 }
-h3{
+h2{
+	text-align:left;
 	background-color:#030063;
 	text-transform:uppercase;
 	color:#0fc3ff;
@@ -36,8 +37,9 @@ h3{
 	padding:20px;
 	margin:-30px -30px 30px -30px;
 	border-bottom:1px solid gray;
+	font-family: "Times New Roman", Times, serif;
 }
-#formulario1 input[type="text"],#formulario1 input[type="email"],#formulario1 textarea,#formulario1 select{
+#formulario2 input[type="text"],#formulario1 input[type="text"],#formulario1 input[type="email"],#formulario2 textarea,#formulario1 select{
 	outline:none;
 	display:block;
 	width:100%;
@@ -50,7 +52,7 @@ h3{
 	background-color:white;
 	font:16px Arial, Helvetica, sans-serif;
 }
-#formulario1 input[type="reset"],#formulario1 input[type="submit"]{
+#formulario2 input[type="reset"],#formulario2 input[type="submit"]{
 	background-color:#030063;
 	border:1px solid black;
 	cursor:pointer;
@@ -60,7 +62,7 @@ h3{
 	text-decoration:none;
 	text-transform:uppercase;
 }
-#formulario1 input[type="reset"]:hover,#formulario1 input[type="submit"]:hover {
+#formulario2 input[type="reset"]:hover,#formulario2 input[type="submit"]:hover {
 	background-color:black;
 	color:#0fc3ff;
 }
