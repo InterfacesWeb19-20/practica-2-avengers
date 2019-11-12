@@ -67,8 +67,8 @@
 				<form id="formulario1" action="Formulariored.html" method="post" enctype="text/plain" accept-charset="utf-8">
 					<h2>Datos</h2>
 					<label>Nombre</label> 
-					<input type="text" name="usuario" placeholder="Nombre"><br><br>
-					<label>Correo</label><input type="email" name="correo"  placeholder="Correo electronico"> <br><br>
+					<input type="text" name="usuario" aria-labelledby="formulario1" placeholder="Nombre"><br><br>
+					<label>Correo</label><input type="email" name="correo" aria-labelledby="formulario1" placeholder="Correo electronico"> <br><br>
 					<p><strong>Curso al que quiere ingresar:</strong></p>
 					<label style="display:inherit;">
 						<select name="elegir-categoria">
@@ -85,17 +85,17 @@
 					<p><strong>Introduzca su sexo:</strong></p>
 					<div id="genero">
 						<label style="display:inline;">Masculino</label>
-						<input type="radio" name="genero" value="m" checked>
+						<input type="radio" aria-labelledby="formulario1" name="genero" value="m" checked>
 						<label style="display:inline;">Femenino</label>
-						<input type="radio" name="genero" value="f">
+						<input type="radio" aria-labelledby="formulario1" name="genero" value="f">
 					</div>
 
 				<h2>Mensaje</h2>
 			
 					<label>Asunto</label>	
-					<input type="text" name="usuario" placeholder="Asunto del Mensaje">
+					<input type="text" name="usuario" aria-labelledby="formulario1" placeholder="Asunto del Mensaje">
 					<label>Mensaje</label>
-					<textarea rows="6" cols="60" id="texto" placeholder="Mensaje"></textarea>
+					<textarea rows="6" cols="60" id="texto" aria-labelledby="formulario1" placeholder="Mensaje"></textarea>
 				
 				
 				<br>
