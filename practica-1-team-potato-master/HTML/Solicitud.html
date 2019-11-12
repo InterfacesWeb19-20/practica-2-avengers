@@ -68,7 +68,7 @@
 					<h2>Datos</h2>
 					<label id ="Nombre">Nombre</label> 
 					<input type="text" name="usuario" aria-labelledby="Nombre" placeholder="Nombre"><br><br>
-					<label>Correo</label><input type="email" name="correo" aria-labelledby="formulario1" placeholder="Correo electronico"> <br><br>
+					<label id="corro">Correo</label><input type="email" name="correo" aria-labelledby="correo" placeholder="Correo electronico"> <br><br>
 					<p><strong>Curso al que quiere ingresar:</strong></p>
 					<label style="display:inherit;">
 						<select name="elegir-categoria">
@@ -83,19 +83,21 @@
 						</select>
 					</label>
 					<p><strong>Introduzca su sexo:</strong></p>
+					
 					<div id="genero">
-						<label style="display:inline;">Masculino</label>
-						<input type="radio" aria-labelledby="formulario1" name="genero" value="m" checked>
-						<label style="display:inline;">Femenino</label>
-						<input type="radio" aria-labelledby="formulario1" name="genero" value="f">
+						<label style="display:inline;" id="Masculino">Masculino</label>
+						<input type="radio" aria-labelledby="Masculino" name="genero" value="m" checked>
+						<label style="display:inline;" id="Femenino">Femenino</label>
+						<input type="radio" aria-labelledby="Femenino" name="genero" value="f">
 					</div>
+					
 
 				<h2>Mensaje</h2>
 			
-					<label>Asunto</label>	
-					<input type="text" name="usuario" aria-labelledby="formulario1" placeholder="Asunto del Mensaje">
-					<label>Mensaje</label>
-					<textarea rows="6" cols="60" id="texto" aria-labelledby="formulario1" placeholder="Mensaje"></textarea>
+					<label id="Asunto">Asunto</label>	
+					<input type="text" name="usuario" aria-labelledby="Asunto" placeholder="Asunto del Mensaje">
+					<label id="Mensaje">Mensaje</label>
+					<textarea rows="6" cols="60" id="texto" aria-labelledby="Mensaje" placeholder="Mensaje"></textarea>
 				
 				
 				<br>
