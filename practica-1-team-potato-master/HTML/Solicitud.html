@@ -66,10 +66,11 @@
 				
 				<form id="formulario1" action="Formulariored.html" method="post" enctype="text/plain" accept-charset="utf-8">
 					<h2>Datos</h2>
-					<label><input type="text" name="usuario" placeholder="Nombre"></label> <br><br>
-					<label><input type="email" name="correo" placeholder="Correo electronico"></label> <br><br>
-					<p>Curso al que quiere ingresar:</p>
-					<label>
+					<label>Nombre</label> 
+					<input type="text" name="usuario" placeholder="Nombre"><br><br>
+					<label>Correo</label><input type="email" name="correo" placeholder="Correo electronico"> <br><br>
+					<p><strong>Curso al que quiere ingresar:</strong></p>
+					<label style="display:inherit;">
 						<select name="elegir-categoria">
 							<option value="1ºESO" selected>1ºESO</option>
 							<option value="2ºESO" >2ºESO</option>
@@ -81,23 +82,29 @@
 							<option value="Superior" >Grado Superior</option>
 						</select>
 					</label>
-					<p>Introduzca su sexo:
+					<p><strong>Introduzca su sexo:</strong>
 					<div id="genero">
-						<label for="Masculino"><input type="radio" name="genero" value="m" checked>Masculino</label>
-						<label for="Femenino"><input type="radio" name="genero" value="f">Femenino</label>
+						<label style="display:inline;">Masculino</label>
+						<input type="radio" name="genero" value="m" checked>
+						<label style="display:inline;">Femenino</label>
+						<input type="radio" name="genero" value="f">
 					</div>
 				</form>
 			<form id="formulario2" action="Formulariored.html" method="post" enctype="text/plain" accept-charset="utf-8">
 				<h2>Mensaje</h2>
 			
-					<label><input type="text" name="usuario" placeholder="Asunto del Mensaje"></label>	
-					<label><textarea rows="6" cols="60" id="texto" placeholder="Mensaje"></textarea></label>
+					<label>Asunto</label>	
+					<input type="text" name="usuario" placeholder="Asunto del Mensaje">
+					<label>Mensaje</label>
+					<textarea rows="6" cols="60" id="texto" placeholder="Mensaje"></textarea>
 				
 				
 				<br>
 				
-					<label><input type="submit" value="Enviar"></label>
-					<label><input type="reset" value="Borrar todo"></label>
+					<label>Enviar</label>
+					<input type="submit" value="Enviar">
+					<label>Borrar</label>
+					<input type="reset" value="Borrar todo">
 				
 
 			</form>
