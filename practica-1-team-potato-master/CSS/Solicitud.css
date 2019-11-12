@@ -17,7 +17,7 @@ legend{
 	margin:50px auto;
 	box-shadow:0px 0px 15px rgba(0, 0, 0, 0.22);
 }
-#formulario1,#formulario2{
+#formulario1{
 	font-family:'Open Sans Condensed', arial, sans;
 	width:900px;
 	padding:30px;
@@ -36,7 +36,7 @@ h2{
 	border-bottom:1px solid gray;
 	font-family: "Times New Roman", Times, serif;
 }
-#formulario2 input[type="text"],#formulario1 input[type="text"],#formulario1 input[type="email"],#formulario2 textarea,#formulario1 select{
+#formulario1 input[type="text"],#formulario1 input[type="email"],#formulario1 textarea,#formulario1 select{
 	outline:none;
 	display:block;
 	width:100%;
@@ -49,7 +49,7 @@ h2{
 	background-color:white;
 	font:16px Arial, Helvetica, sans-serif;
 }
-#formulario2 input[type="reset"],#formulario2 input[type="submit"]{
+#formulario1 input[type="reset"],#formulario1 input[type="submit"]{
 	background-color:#030063;
 	border:1px solid black;
 	cursor:pointer;
@@ -59,7 +59,7 @@ h2{
 	text-decoration:none;
 	text-transform:uppercase;
 }
-#formulario2 input[type="reset"]:hover,#formulario2 input[type="submit"]:hover {
+#formulario1 input[type="reset"]:hover,#formulario1 input[type="submit"]:hover {
 	background-color:black;
 	color:#0fc3ff;
 }
@@ -73,7 +73,7 @@ iframe{
 }
 #genero{
 	font-weight:200;
-	margin-bottom:10px;
+	margin-bottom:40px;
 }
 label{
 	display:none;
